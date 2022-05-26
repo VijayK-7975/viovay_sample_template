@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
+  <link href="assets/images/favicon.png" rel="icon" />
+  <title>Documentation | VSURVE</title>
+  <meta name="description" content="VSURVE" />
+  <meta name="author" content="" />
+
+  <link rel="apple-touch-icon" href="assets/images/favicon.png" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css" />
+
+  <!-- Stylesheet  -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <style>
+    .main-header {
+      z-index: 10;
+      background-color: #fff;
+      -webkit-box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+      box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+      top: -2px;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".vsurve-navigation" data-offset="125">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   -->
+  <div id="main-wrapper">
+    <!-- Header  -->
+
+    <header class="main-header position-fixed w-100">
+      <nav class="navbar navbar-expand-xl navbar-dark sticky-header">
+        <div class="container-fluid d-flex align-items-center justify-content-start position-relative">
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+          <a href="/index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+            <img src="assets/images/viovay.png" alt="Viovay" height="50" class="img-fluid logo-white" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Content  -->
+    <div id="content" role="main">
+      <!-- Sidebar Navigation -->
+      <div class="vsurve-navigation bg-light">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#viovay_signUp">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#add_system">Add System</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#select_system">Select System</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nav_drawer">Navigation Drawer</a>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#biometric_system">Biometric Settings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#systme_settings">System Settings</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#update_system">Update System</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#delete_system">Delete System</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#addNew_system">Adding New System.</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#privacy_policy" class="nav-link">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Docs Content -->
+      <div class="vsurve-content">
+        <div class="container">
+          <section>
+            <h2>Splash Screen</h2>
+            <p>
+              A splash screen is an introduction page on an application. Splash Screen is the first screen visible to the user when the application’s launched.
+            </p>
+            <p>
+            <div class="text-center">
+
+              <img class="img-fluid" src="./assets/images/splash_screen.png" alt="Viovay splash screen" />
+            </div>
+            </p>
+
+          </section>
+          <hr class="divider" />
+          <section id="viovay_signUp">
+            <h2>Signup</h2>
+            <p class="text-center">
+              <img class="img-fluid" src="./assets/images/iphone_user_signup.png" alt="Corporate Email Screen" />
+            </p>
+            <p>The sign up page appears to fill details required for sign up. Enter email address then click <b>SUBMIT</b>. A valid email should be entered.</p>
+            <p>Ensure that device is connected to Internet and then click <b>SUBMIT</b>.</p>
+            <p><b>NOTE</b> - For password following the below rules</p>
+            <ul>
+              <li>Only corporate email’s are valid.</li>
+            </ul>
+            <p>You will get an email verification code to your entered email address. Enter that verification code in <b>Viovay application</b> to verify the email.</p>
+            <p class="text-center">
+              <img class="img-fluid" src="./assets/images/user_verify.png" alt="User verify Screen" />
+            </p>
+          </section>
+
+          <hr class="divider" />
+          <section id="add_system">
+            <h2>Add System</h2>
+            <p>The Add System page appears to fill details required for Adding the System. Enter system name and System Url then click <b>ADD SYSTEM</b>.</p>
+            <p class="text-center">
+              <img class="img-fluid" src="./assets/images/iphone_add_system.png" alt="Add system screen" />
+            </p>
+            <p><b>NOTE</b> - System name is unique and cannot have duplicate name entries.</p>
+            <p class="text-center">
+              <img class="img-fluid" src="./assets/images/add_new_system.png" alt="Add new system screen" />
+            </p>
+            <p>After Submission you are prompted with <b>YES</b> and <b>NO</b> option.</p>
+            <p>On Click of <b>YES</b> new System Details can be added.</p>
+            <p>On Click of <b>NO</b> you will be redirected to list of the systems added.</p>
+          </section>
+
+          <hr class="divider" />
+          <section id="select_system">
+            <h2>Select System</h2>
+            <p>Click on the checkbox to access the particular system and click on <strong>SUBMIT</strong>.</p>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/iphone_select_system.png" alt="System List screen" />
+            </div>
+            <p>On Successful submission, you will directed to the system access page.</p>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/iphone_tooltip.png" alt="Welcome screen" />
+            </div>
+            <p>On Initial load of System, an tooltip appears for swipe left for Settings. Click On OK for accessing the system.</p>
+            <p>Enter the login credentials and access the system.</p>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/fiori_page.png" alt="Fiori screen" />
+            </div>
+            <p><b>NOTE</b></p>
+            <ul>
+              <li>Device must be connected to VPN before accessing the system.</li>
+              <li>Ensure that VPN is connected on initial loading of application.</li>
+            </ul>
+          </section>
+
+          <hr class="divider" />
+          <section id="nav_drawer">
+            <h2>Navigation Drawer(Sidebar)</h2>
+
+            <p>On Swipe Left on system Page we have two options. <strong>System Settings</strong> and <strong>Biometric Settings.</strong>
+            </p>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/sidebar.png" alt="Sidebar screen" />
+            </div>
+            <hr class="divider" />
+            <h4 id="biometric_system">Biometric Settings</h4>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/iphone_biometric.png" alt="Biometric setting screen" />
+            </div>
+            <p>In Biometric Settings we can enable or disable Biometric Authentication.</p>
+            <p>On Enabling you are asked biometric authentication either Fingerprint Sensor/PIN/Pattern depending on type of authentication enabled on the mobile device.</p>
+
+            <hr class="divider" />
+            <h4 id="systme_settings">System Settings</h4>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/system_settings.png" alt="System setting screen" />
+            </div>
+            <p>On System settings you are allowed to add a new system, edit the system or the delete the System.</p>
+
+            <hr class="divider" />
+            <h4 id="update_system">Update System</h4>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/update_system.png" alt="Update System screen" />
+            </div>
+            <p>Click on <strong>EDIT</strong> button and then the following prompt appears for updating.</p>
+            <p>System Name or System Url can be corrected on wrong submission.</p>
+
+            <hr class="divider" />
+            <h4 id="delete_system">Delete System</h4>
+            <p>Click <strong>DELETE</strong> button for deleting the system from the system list.</p>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/delete_system.png" alt="Delete System screen" />
+            </div>
+            <p><strong>Note:</strong>
+            <ul>
+              <li>If System in use the current system cannot be deleted.</li>
+            </ul>
+            </p>
+
+            <hr class="divider" />
+            <h4 id="addNew_system">Adding New System.</h4>
+            <p>Click on <strong>ADD NEW SYSTEM</strong> Button an prompt appears.</p>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/add_new_systemsettings.png" alt="Add new System screen" />
+            </div>
+            <p>Enter the system name and system url add click on <strong>ADD</strong>.</p>
+          </section>
+
+          <hr class="divider" />
+          <section id="privacy_policy">
+            <h2>Privacy Policy</h2>
+            <div class="text-center">
+              <img class="img-fluid" src="./assets/images/privacy_policy.png" alt="Privacy Policy screen" />
+            </div>
+            <p>A privacy policy is a statement or legal document (in privacy law) that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.[1] Personal information can be anything that can be used to identify an individual, not limited to the person's name, address, date of birth, marital status, contact information. </p>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Content end -->
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+
+============================ -->
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="./assets/js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="./assets/js/jquery.easing.min.js"></script>
+  <!-- Custom Script -->
+  <script src="./assets/js/theme.js"></script>
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+      if (scroll < 2) {
+        $("nav.sticky-header").removeClass("affix");
+      } else {
+        $("nav.sticky-header").addClass("affix");
+      }
+    });
+
+  </script>
+</body>
+
+</html>
